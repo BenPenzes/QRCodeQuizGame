@@ -1,6 +1,6 @@
 {
-    "Aula" : "1903",
-    "A_epulet" : "8",
-    "K_epulet" : "10",
-    "I_epulet" : "1949"
+    "building_I" : "10",
+    "building_A" : "8",
+    "building_B" : "1903",
+    "building_K" : "1949"
 }
