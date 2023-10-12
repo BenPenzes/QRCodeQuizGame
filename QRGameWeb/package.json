@@ -1,0 +1,23 @@
+{
+  "name": "qrcodegame",
+  "version": "1.0.0",
+  "description": "",
+  "main": "FrontEnd.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BenPenzes/QRCodeQuizGame.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BenPenzes/QRCodeQuizGame/issues"
+  },
+  "homepage": "https://github.com/BenPenzes/QRCodeQuizGame.git#readme",
+  "dependencies": {
+    "firebase": "^9.6.7"
+  }
+}

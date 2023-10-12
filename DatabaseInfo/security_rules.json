@@ -1,0 +1,33 @@
+{
+    "rules": {
+        ".write": "false",
+        ".read": "false",
+        "numOfTeams": {
+            ".validate": "newData.isNumber() && newData.val() === data.val() + 1 && newData.val() >= 0 && newData.val() <= 10",
+            ".read": "auth != null",
+            ".write": "auth != null && data.exists() && newData.exists()"
+        },
+        "teams": {
+            ".read": " true",
+            ".write": "auth != null && newData.exists()",
+            ".validate": "root.child(\"numOfTeams\").val() < 10",
+            "$team_id": {
+                ".write": "auth != null && !data.exists()",
+                "station": {
+                    ".validate": "newData.isString() && (newData.val() === \"building_I\" || newData.val() === \"building_A\" || newData.val() === \"building_B\" || newData.val() === \"building_K\")",
+                    ".read": "true",
+                    ".write": "auth != null"
+                },
+                "score": {
+                    ".validate": "newData.isNumber() && newData.val() >= 0 && newData.val() <= 4 ",
+                    ".read": "true",
+                    ".write": "auth != null"
+                }
+            }
+        },
+        "tasks": {
+            ".read": "auth != null",
+            ".write": "false"
+        }
+    }
+}

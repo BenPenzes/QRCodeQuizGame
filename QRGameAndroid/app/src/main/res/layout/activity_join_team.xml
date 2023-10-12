@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".JoinTeamActivity">
+
+    <TextView
+        android:id="@+id/JoinTeamPromptTv"
+        android:layout_width="match_parent"
+        android:layout_height="77dp"
+        android:gravity="center"
+        android:text="@string/join_team_prompt_text"
+        android:textColor="#FFC107"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/numOfTeamsTv"
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:gravity="center_vertical"
+        android:textColor="#000000"
+        android:textSize="17sp" />
+
+    <ListView
+        android:id="@+id/teamsLv"
+        android:layout_width="match_parent"
+        android:layout_height="440dp" />
+</LinearLayout>

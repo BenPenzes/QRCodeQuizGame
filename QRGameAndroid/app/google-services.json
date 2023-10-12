@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "689257745448",
+    "firebase_url": "https://qrgame-29677-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "qrgame-29677",
+    "storage_bucket": "qrgame-29677.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:689257745448:android:b1d7af1533329b96f2391d",
+        "android_client_info": {
+          "package_name": "com.example.qrgame"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "689257745448-u7sekl26q6lj62s038dgu5tbi7j3npl6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDxHGk2rcih5ayd16Ee-9rXehOPipQk2iU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "689257745448-u7sekl26q6lj62s038dgu5tbi7j3npl6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

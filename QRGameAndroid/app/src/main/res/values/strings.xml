@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">QRGame</string>
+    <string name="new_team_btn_text">New Team</string>
+    <string name="join_team_btn_text">Join Team</string>
+    <string name="login_prompt_title">LOGIN</string>
+    <string name="create_team_prompt_title">CREATE TEAM</string>
+    <string name="team_name_et_hint">Team Name:</string>
+    <string name="create_team_btn_text">CREATE</string>
+    <string name="read_task_qr_button_text">Read QR Code</string>
+    <string name="exit_btn_text">Exit</string>
+    <string name="copy_right_text">© 2023 QRCodeGame - All Rights Reserved.</string>
+    <string name="answer_et_hint_text">Answer here...</string>
+    <string name="send_btn_text">Send</string>
+    <string name="join_team_prompt_text">JOIN TEAM</string>
+</resources>

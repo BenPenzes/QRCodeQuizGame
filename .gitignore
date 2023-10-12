@@ -1,0 +1,39 @@
+# Android Studio  Gradle
+.gradle
+local.properties
+.idea
+.build
+.externalNativeBuild
+.cxx
+captures
+
+# Android build output
+build
+appbuild
+apprelease
+appdebug
+appoutputs
+appsrcmainassets
+appsrcmainjniLibs
+appbuild.gradle
+
+
+# Firebase
+firebase.json
+firebase-debug.json
+firebase-config.js
+firebase-functionsfunctionspackage-lock.json
+firebase-functionsfunctionsnode_modules
+firebase-functionsfunctionsdist
+
+# Visual Studio  JavaScript  npm
+node_modules
+dist
+.vscode
+.history
+
+# Ignore all log files and runtime exceptions
+.log
+npm-debug.log
+yarn-debug.log
+yarn-error.log

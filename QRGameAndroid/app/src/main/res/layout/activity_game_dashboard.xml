@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".GameDashboardActivity">
+
+    <ImageView
+        android:id="@+id/gameDashboardDrawableIv"
+        android:layout_width="match_parent"
+        android:layout_height="114dp"
+        app:srcCompat="@drawable/activity_game_dashboard_drawable" />
+
+    <TextView
+        android:id="@+id/teamNameTv"
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:gravity="center_vertical"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="26dp" />
+
+    <TextView
+        android:id="@+id/scoreTv"
+        android:layout_width="match_parent"
+        android:layout_height="39dp"
+        android:gravity="center_vertical"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="59dp" />
+
+    <Button
+        android:id="@+id/readTaskQrButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="readTaskQrButtonClick"
+        android:text="@string/read_task_qr_button_text" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="59dp" />
+
+    <Button
+        android:id="@+id/exitBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="exitButtonClick"
+        android:text="@string/exit_btn_text" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="265dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_gravity="bottom"
+        android:gravity="bottom|center"
+        android:text="@string/copy_right_text" />
+
+</LinearLayout>

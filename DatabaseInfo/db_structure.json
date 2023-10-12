@@ -1,0 +1,39 @@
+{
+  "numOfTeams": 1,
+  "tasks": {
+    "task_1": {
+      "correct_answer": "4a44dc15364204a80fe80e9039455cc1608281820fe2b24f1e5233ade6af1dd5",
+      "score": "1",
+      "station": "building_I",
+      "task_description": "How many levels is building I?",
+      "task_title": "Levels of Building I"
+    },
+    "task_2": {
+      "correct_answer": "2c624232cdd221771294dfbb310aca000a0df6ac8b66b696d90ef06fdefb64a3",
+      "score": 1,
+      "station": "building_B",
+      "task_description": "How many bits constitute a byte?",
+      "task_title": "Bits to Byte"
+    },
+    "task_3": {
+      "correct_answer": "262b06d105e1c865b01c3e0a74291cdae511ef15f3d456e14fbe2dffd9efe3b9",
+      "score": 1,
+      "station": "building_B",
+      "task_description": "When was John von Neumann born?",
+      "task_title": "John von Neumann"
+    },
+    "task_4": {
+      "correct_answer": "82887006d04d939ffca870bc268a940df6cf01dbdf12e228ccf476d07d7c9424",
+      "score": 1,
+      "station": "building_K",
+      "task_description": "When was University of Pannonia founded?",
+      "task_title": "Start of the University"
+    }
+  },
+  "teams": {
+    "defaultTeam": {
+      "score": 0,
+      "station": "building_A"
+    }
+  }
+}
